@@ -19,10 +19,10 @@ def parse_args():
     return parser.parse_args()
 
 
-def convert_ber(keyfile):
+def convert_der(keyfile):
     """
     Convert an ssh key stored in a keyfile
-    to BER encoding.
+    to DER encoding.
     """
     ssh_keygen = subprocess.Popen((
         "ssh-keygen", "-f", keyfile,
@@ -45,7 +45,7 @@ def format_key(key):
 def cli_main():
     """Convert the ssh key provided as file"""
     args = parse_args()
-    key = convert_ber(args.keyfile)
+    key = convert_der(args.keyfile)
     print(format_key(key))
 
 
