@@ -7,7 +7,7 @@ HP Comware 5 switches.
 
 ## Installation
 
-    pip install --user git+http://github.com/mhannig/hp-comware-ssh-converter
+    pip install --user git+https://github.com/mhannig/hp-comware-ssh-converter
 
 
 ## Running
