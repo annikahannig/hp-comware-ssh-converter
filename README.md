@@ -1,7 +1,7 @@
 
 # comware_sshconv
 
-Convert ssh public keys into a BER encoding required for
+Convert ssh public keys into a DER encoding required for
 HP Comware 5 switches.
 
 

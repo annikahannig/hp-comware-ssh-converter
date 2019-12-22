@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Convert ssh keys to BER format required by
+Convert ssh keys to DER format required by
 HP Comware 5.
 """
 
